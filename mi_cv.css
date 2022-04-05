@@ -26,11 +26,13 @@ body{
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0, 0, 0, 6);
     
+    
 }
 .container .left_side{
     position: relative;
     background:#42d8d0;
     padding:40px;
+    border: 2px solid #1697d3;
 }
 .profileText{
     position: relative;
@@ -47,6 +49,7 @@ body{
     height: 200px;
     border-radius: 50%;
     overflow: hidden;
+    border: 2px solid #1697d3;
 }
 .profileText .imgBx img{
     position: relative;
@@ -147,6 +150,7 @@ body{
     position: relative;
     background-color: rgb(204, 159, 241);
     padding:40px ;
+    border: 2px solid rgb(209, 106, 250);
 }
 .about{
     margin-bottom: 40px;
@@ -234,8 +238,30 @@ grid-template-columns: repeat(4,1fr);
 
 
 }
+.descarga{
+    border:2px solid #1697d3;
+    background-color: #1697d3;
+}
 
 
+@media(max-width: 780px){
+    header
+    {
+        height:50px;
+    }
+    h1
+    {
+        font-size: 28px;
+        margin: 20px 0px 0px 0px;
+    }
+    nav li a 
+    {
+        font-size: 13px;
+        padding:10px;
+    }
+    nav li:hover a 
+    {
+        padding:5px 10px 10px 10px;
+    }
 
-
-
+}
